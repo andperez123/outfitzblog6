@@ -6,7 +6,7 @@ import NewsletterForm from 'pliny/ui/NewsletterForm'
 
 const MAX_DISPLAY = 5
 
-export default function Home({ posts }) {
+export default function Main({ posts }) {
   return (
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -15,7 +15,7 @@ export default function Home({ posts }) {
             Latest
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            {siteMetadata.description}
+            A blog about AI-powered personal style and fashion recommendations
           </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
