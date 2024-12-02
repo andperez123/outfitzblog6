@@ -13,12 +13,12 @@ export default function AboutPage() {
 
   // If not yet client-side, render a placeholder or the same content
   if (!isClient) {
-    return <div className="max-w-4xl mx-auto py-12 px-4">Loading...</div>;
+    return <div className="mx-auto max-w-4xl px-4 py-12">Loading...</div>;
   }
 
   return (
-    <main className="max-w-4xl mx-auto py-12 px-4" suppressHydrationWarning>
-      <h1 className="text-4xl font-bold mb-6">About Andrew Peters</h1>
+    <main className="mx-auto max-w-4xl px-4 py-12" suppressHydrationWarning>
+      <h1 className="mb-6 text-4xl font-bold">About Andrew Peters</h1>
       
       <section className="prose lg:prose-xl">
         <p>
@@ -26,17 +26,17 @@ export default function AboutPage() {
           With [X] years of experience, he specializes in [specific skills or interests].
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8 mb-4">Background</h2>
+        <h2 className="mb-4 mt-8 text-2xl font-semibold">Background</h2>
         <p>
           [Add background information, education, career highlights]
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8 mb-4">Experience</h2>
+        <h2 className="mb-4 mt-8 text-2xl font-semibold">Experience</h2>
         <p>
           [Add professional experience, achievements, projects]
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8 mb-4">Contact</h2>
+        <h2 className="mb-4 mt-8 text-2xl font-semibold">Contact</h2>
         <p>
           [Add contact information or links to social profiles]
         </p>
